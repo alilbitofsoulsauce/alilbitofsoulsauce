@@ -1,134 +1,90 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="alilbitofsoulsauce — systems, infrastructure, experiments" width="100%" />
+  <img src="./assets/header.svg" alt="alilbitofsoulsauce" width="100%" />
+</p>
+
+<p align="center">
+  <samp>quiet systems · careful software · real-world constraints</samp>
+</p>
+
+<p align="center">
+  I like making things that remain understandable when conditions stop being ideal.
 </p>
 
 <br />
 
-<p align="center">
-  <samp>
-    computer science · infrastructure · resilient systems · strange experiments
-  </samp>
-</p>
-
-<p align="center">
-  I like building things that still make sense when the network disappears,<br />
-  the hardware is cheap, the assumptions are wrong, or reality gets messy.
-</p>
-
----
-
-### /now
-
-I’m an undergraduate Computer Science student in the Philippines, mostly working where **software meets unreliable real-world systems**.
-
-Right now, that means:
-
-- **edge + LoRaWAN systems** — telemetry, gateways, outage recovery, evidence integrity
-- **low-cost infrastructure intelligence** — sensing, anomaly detection, and retrofit hardware
-- **full-stack products** — turning prototypes into usable systems instead of leaving them as diagrams
-- **experimental system design** — Merkle DAGs, distributed data, offline-first workflows, and failure testing
-
-I care less about adding technology for its own sake and more about answering:
-
-> **What survives contact with the real world?**
-
----
-
-### /selected-work
-
 <table>
 <tr>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/alilbitofsoulsauce/starfront">STARFRONT</a></h4>
-<strong>An authoritative browser RTS on one continuous battlefield.</strong>
-<br /><br />
-A desktop-first sci-fi strategy game with an 8192×8192 world, server-owned combat and economy, construction, pathing, reconnect recovery, and deterministic playtests.
-<br /><br />
-<code>TypeScript</code> <code>Colyseus</code> <code>PixiJS</code> <code>multiplayer</code>
+<td width="33%" align="center">
+<sub>mode</sub><br />
+<code>learning</code>
 </td>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/alilbitofsoulsauce/synapse">Synapse</a></h4>
-<strong>A local-first knowledge layer for unrelated tools.</strong>
-<br /><br />
-A Rust system for durable machine knowledge with provenance, confidence, lifecycle state, append-only evolution, bounded retrieval, write authorization, and authenticated local IPC.
-<br /><br />
-<code>Rust</code> <code>local-first</code> <code>IPC</code> <code>knowledge systems</code>
+<td width="33%" align="center">
+<sub>bias</sub><br />
+<code>clarity</code>
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/alilbitofsoulsauce/ph-rice-disease-detector">RiceCare</a></h4>
-<strong>Offline rice-disease detection for field use.</strong>
-<br /><br />
-A mobile-first PWA that runs local TensorFlow Lite inference in the browser, accepts camera or gallery input, and keeps scan history in IndexedDB for low-connectivity environments.
-<br /><br />
-<code>JavaScript</code> <code>TFLite</code> <code>PWA</code> <code>offline-first</code>
-</td>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/alilbitofsoulsauce/lorawan-setup">LoRaWAN Infrastructure</a></h4>
-<strong>Making edge telemetry understandable and recoverable.</strong>
-<br /><br />
-Gateway and network-server work around real deployment constraints: setup, diagnostics, outage behavior, recovery, repeatable verification, and failure-focused experimentation.
-<br /><br />
-<code>Python</code> <code>LoRaWAN</code> <code>ChirpStack</code> <code>Linux</code>
+<td width="33%" align="center">
+<sub>default</sub><br />
+<code>keep it simple</code>
 </td>
 </tr>
 </table>
 
-<details>
-<summary><strong>research I’m pushing further</strong></summary>
 <br />
 
-- **Praevis by Nexura Labs** — low-cost transformer retrofit intelligence using external sensing, LoRaWAN telemetry, and evidence-driven analytics.
-- **Forward-secure LoRaWAN evidence journaling** — authenticated gateway records, crash recovery, failure injection, and post-outage verification.
-- **Grid-aligned Merkle DAGs for UAV rasters** — cross-epoch deduplication with verifiable spatial-window retrieval.
+### /about
 
-</details>
+Computer Science student from the Philippines.
 
----
+I’m drawn to systems, infrastructure, full-stack software, edge computing, and anything that has to keep working outside perfect laboratory conditions.
+
+Not interested in making simple things look complicated.<br />
+More interested in understanding why something works, where it fails, and how to make it easier to live with.
+
+<br />
+
+<img src="./assets/signal.svg" alt="quiet signal" width="100%" />
+
+### /principles
+
+```text
+clarity      > cleverness
+signal       > noise
+restraint    > display
+evidence     > hype
+recovery     > pretending failure won't happen
+```
+
+### /working-style
+
+```text
+01  understand the constraint
+02  remove what does not need to exist
+03  make the smallest useful version
+04  test the ugly cases
+05  leave the system easier to understand
+```
 
 ### /toolbox
 
 ```text
-languages        Python · JavaScript / TypeScript · Rust · SQL
-backend          Node.js · REST APIs · MySQL · Firebase · local IPC
-infrastructure   Linux · Docker · Git · networking · LoRaWAN · ChirpStack
-systems          offline-first design · journaling · integrity · failure injection
-exploring        Hyperledger Fabric · IPFS · spatial data · edge analytics
+languages      Python · JavaScript / TypeScript · Rust · SQL
+backend        Node.js · REST APIs · MySQL · Firebase
+systems        Linux · Docker · Git · networking
+interests      distributed systems · edge computing · offline-first design
 ```
 
-I don’t treat this as a list of things I’ve “mastered.”  
-It’s the set of tools I’m actively using, breaking, testing, and learning.
+<details>
+<summary><samp>one more thing</samp></summary>
+<br />
 
----
+I’m still learning. That is probably the most accurate description here.
 
-### /how-i-build
+I’d rather have a repository that shows unfinished thinking clearly than a profile that pretends everything is finished.
 
-```text
-01  start with the failure mode
-02  remove the unnecessary cleverness
-03  make the cheapest version that can answer the question
-04  test ugly conditions, not just the happy path
-05  document what the system cannot prove
-06  ship the artifact
-```
+</details>
 
-A lot of my work starts with constraints: weak connectivity, cheap sensors, limited compute, outages, deployment cost, or incomplete data. Those constraints usually make the architecture more interesting.
-
----
-
-### /current-questions
-
-- How much useful condition information can **cheap external sensors** extract from infrastructure?
-- When does **AI actually outperform simpler detection**, and when is it just decoration?
-- How should edge systems behave through **hours or days without WAN access**?
-- Can verifiable storage structures remain efficient when the data is **spatial and repeatedly re-observed**?
-- How do you turn an academic prototype into something people can **deploy, recover, and maintain**?
-
----
+<br />
 
 <p align="center">
-  <samp>
-    build → break → measure → revise
-  </samp>
+  <samp>build quietly / make it hold</samp>
 </p>

@@ -1,0 +1,19 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="110" rx="8" fill="#0A0A0A"/>
+  <rect x="0.5" y="0.5" width="1199" height="109" rx="7.5" stroke="#202020"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="32" y="35" fill="#555555" font-size="10" letter-spacing="1.4">SIGNAL / 01</text>
+    <text x="32" y="70" fill="#A7A7A7" font-size="13" letter-spacing="1.2">learning without pretending to be finished</text>
+  </g>
+
+  <line x1="760" y1="55" x2="1150" y2="55" stroke="#242424"/>
+  <path d="M760 55H802L813 37L830 73L844 48L856 55H899L912 44L925 64L941 55H1001L1015 35L1032 76L1047 49L1059 55H1150"
+        stroke="#909090" stroke-width="1.2" stroke-dasharray="5 7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-96" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="1150" cy="55" r="2.8" fill="#D0D0D0">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,44 @@
+<svg width="1200" height="58" viewBox="0 0 1200 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171717"/>
+      <stop offset="0.18" stop-color="#4A4A4A"/>
+      <stop offset="0.5" stop-color="#AFAFAF"/>
+      <stop offset="0.82" stop-color="#4A4A4A"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+  </defs>
+
+  <line x1="80" y1="29" x2="1120" y2="29" stroke="#171717"/>
+
+  <path d="M80 29H258L273 18L288 40L304 29H500L514 22L528 36L543 29H728L743 13L760 45L776 29H954L968 21L982 37L997 29H1120"
+        stroke="url(#line)" stroke-width="1.15" stroke-dasharray="5 9">
+    <animate attributeName="stroke-dashoffset" from="0" to="-112" dur="7s" repeatCount="indefinite"/>
+  </path>
+
+  <g fill="#BDBDBD">
+    <circle cx="288" cy="40" r="2"/>
+    <circle cx="528" cy="36" r="2"/>
+    <circle cx="760" cy="45" r="2"/>
+    <circle cx="982" cy="37" r="2"/>
+  </g>
+
+  <g fill="#CFCFCF">
+    <circle cx="288" cy="40" r="2" opacity="0.45">
+      <animate attributeName="r" values="2;6;2" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0;0.45" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="528" cy="36" r="2" opacity="0.45">
+      <animate attributeName="r" values="2;6;2" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0;0.45" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="45" r="2" opacity="0.45">
+      <animate attributeName="r" values="2;6;2" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0;0.45" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="982" cy="37" r="2" opacity="0.45">
+      <animate attributeName="r" values="2;6;2" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0;0.45" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

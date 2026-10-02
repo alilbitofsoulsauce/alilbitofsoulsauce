@@ -35,7 +35,7 @@
 
 Computer Science student from the Philippines.
 
-I’m drawn to systems, infrastructure, full-stack software, edge computing, and anything that has to keep working outside perfect laboratory conditions.
+I’m drawn to systems, infrastructure, AI / ML, full-stack software, edge computing, and anything that has to keep working outside perfect laboratory conditions.
 
 Not interested in making simple things look complicated.<br />
 More interested in understanding why something works, where it fails, and how to make it easier to live with.
@@ -43,6 +43,8 @@ More interested in understanding why something works, where it fails, and how to
 <br />
 
 <img src="./assets/signal.svg" alt="quiet signal" width="100%" />
+
+<br />
 
 ### /principles
 
@@ -54,6 +56,12 @@ evidence     > hype
 recovery     > pretending failure won't happen
 ```
 
+<br />
+
+<img src="./assets/pulse.svg" alt="" width="100%" />
+
+<br />
+
 ### /working-style
 
 ```text
@@ -64,14 +72,27 @@ recovery     > pretending failure won't happen
 05  leave the system easier to understand
 ```
 
+<br />
+
+<img src="./assets/pulse.svg" alt="" width="100%" />
+
+<br />
+
 ### /toolbox
 
 ```text
 languages      Python · JavaScript / TypeScript · Rust · SQL
+ai / ml        LLM systems · model integration · TensorFlow / TFLite · inference
 backend        Node.js · REST APIs · MySQL · Firebase
 systems        Linux · Docker · Git · networking
 interests      distributed systems · edge computing · offline-first design
 ```
+
+<br />
+
+<img src="./assets/pulse.svg" alt="" width="100%" />
+
+<br />
 
 <details>
 <summary><samp>one more thing</samp></summary>
